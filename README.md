@@ -33,16 +33,27 @@ load 'animate_gnuplot_icon.plt'
 
 # Note
 - The data in [`pos_break_point.txt`](pos_break_point.txt) are measured values, not true values.
+
+- I made a MP4 file (demo.mp4) and an animated GIF (demo.gif) by using **FFmpeg**.
+```
+cd animate-gnuplot-icon
+
+# MP4
+ffmpeg -framerate 60 -i png/img_%04d.png -vcodec libx264 -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -r 60 demo.mp4
+
+# GIF
+ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p];[b][p] paletteuse" demo.gif
+```
+
 - To display the outer border, not only `border` but also `set object ... rectangle` is executed. This is because they each lack a different corner when the width of the line is thick; i.e., the value of `linewidth` (`lw`) is large.
   - If you only run the command `border`, this program outputs the PNG images missing upper left corner.
   - On the other hand, you get outputted images missing lower left corner with running only `set object ... rectangle`.
   - So, drawing the border works well with combining these commands.  
 
-
 |![only_border](img_readme/icon_only_border.png)|![only_rectangle](img_readme/icon_only_rectangle.png)|![border+rectangle](icon_pngcairo.png)|
 |---|---|---|
 |Only `border` (missing upper left corner)|Only `rectangle` (missing lower left corner)|`border` + `rectangle`|
- 
+
 # Author
 * Hiro Shigeyoshi
 * Twitter: https://twitter.com/hiroloquy
