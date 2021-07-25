@@ -58,7 +58,15 @@ ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p]
 # Author
 * Hiro Shigeyoshi
 * Twitter: https://twitter.com/hiroloquy
- 
+
+### Blog 
+This article is written in detail and in Japanese. You can translate it in your language.  
+https://hiroloquy.com/2021/07/25/animate-gnuplot-icon/
+
+### YouTube
+http://www.youtube.com/watch?v=uCNL799TCUA  
+[![Animate Gnuplot Icon #Shorts](http://img.youtube.com/vi/uCNL799TCUA/0.jpg)](http://www.youtube.com/watch?v=uCNL799TCUA "Animate Gnuplot Icon #Shorts")
+
 # License
 "animate-gnuplot-icon" is under [Hiroloquy](https://hiroloquy.com/).
  
