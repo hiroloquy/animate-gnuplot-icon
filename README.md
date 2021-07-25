@@ -20,6 +20,7 @@ So I use **fitting** to automatically find the slope and intercept of the three 
 - macOS Big Sur 11.5 / Macbook Air (M1, 2020) 16GB
 - gnuplot version 5.4 patchlevel 2
 - VScode 1.58.2
+- FFmpeg 4.4
 
 <!-- # Installation -->
 
