@@ -68,5 +68,5 @@ http://www.youtube.com/watch?v=uCNL799TCUA
 [![Animate Gnuplot Icon #Shorts](http://img.youtube.com/vi/uCNL799TCUA/0.jpg)](http://www.youtube.com/watch?v=uCNL799TCUA "Animate Gnuplot Icon #Shorts")
 
 # License
-"animate-gnuplot-icon" is under [Hiroloquy](https://hiroloquy.com/).
+"animate-gnuplot-icon" is under MIT license.
  
