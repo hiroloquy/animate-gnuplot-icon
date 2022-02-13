@@ -1,8 +1,8 @@
-# animate-gnuplot-icon
+# Animate gnuplot icon
 "animate-gnuplot-icon" generates a **gnuplot icon image and animation** using linear function fitting with the `fit` command.
 
 # DEMO
-|![Animation](demo.gif)|![Image](icon_pngcairo.png)|
+|<img src="demo.gif" alt="demo.gif" title="demo.gif" width="250">|<img src="icon_pngcairo.png" alt="icon_pngcairo.png" title="icon_pngcairo.png" width="250">|
 |---|---|
 |Animation (PNG images → GIF)|Image (PNG)|
 
@@ -51,7 +51,7 @@ ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p]
   - On the other hand, you get outputted images missing lower left corner with running only `set object ... rectangle`.
   - So, drawing the border works well with combining these commands.  
 
-|![only_border](img_readme/icon_only_border.png)|![only_rectangle](img_readme/icon_only_rectangle.png)|![border+rectangle](icon_pngcairo.png)|
+|<img src="doc/icon_only_border.png" alt="only_border" title="only_border" width="250">|<img src="doc/icon_only_rectangle.png" alt="only_rectangle" title="only_rectangle" width="250">|<img src="icon_pngcairo.png" alt="border+rectangle" title="border+rectangle" width="250">|
 |---|---|---|
 |Only `border` (missing upper left corner)|Only `rectangle` (missing lower left corner)|`border` + `rectangle`|
 
