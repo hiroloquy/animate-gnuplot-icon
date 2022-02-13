@@ -52,7 +52,7 @@ ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p]
   - So, drawing the border works well with combining these commands.  
 
 |<img src="doc/icon_only_border.png" alt="only_border" title="only_border" width="250">|<img src="doc/icon_only_rectangle.png" alt="only_rectangle" title="only_rectangle" width="250">|<img src="icon_pngcairo.png" alt="border+rectangle" title="border+rectangle" width="250">|
-|---|---|---|
+|:---:|:---:|:---:|
 |Only `border` (missing upper left corner)|Only `rectangle` (missing lower left corner)|`border` + `rectangle`|
 
 # Author
