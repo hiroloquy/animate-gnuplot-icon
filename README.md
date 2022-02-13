@@ -3,7 +3,7 @@
 
 # DEMO
 |<img src="demo.gif" alt="demo.gif" title="demo.gif" width="250">|<img src="icon_pngcairo.png" alt="icon_pngcairo.png" title="icon_pngcairo.png" width="250">|
-|---|---|
+|:---:|:---:|
 |Animation (PNG images → GIF)|Image (PNG)|
 
 # Features
