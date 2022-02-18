@@ -25,7 +25,7 @@ So I use **fitting** to automatically find the slope and intercept of the three 
 <!-- # Installation -->
 
 # Usage
-```
+```bash
 git clone https://github.com/hiroloquy/animate-gnuplot-icon.git
 cd animate-gnuplot-icon
 gnuplot
@@ -36,7 +36,7 @@ load 'animate_gnuplot_icon.plt'
 - The data in [`pos_break_point.txt`](pos_break_point.txt) are measured values, not true values.
 
 - I made a MP4 file (demo.mp4) and an animated GIF (demo.gif) by using **FFmpeg**.
-```
+```bash
 cd animate-gnuplot-icon
 
 # MP4
